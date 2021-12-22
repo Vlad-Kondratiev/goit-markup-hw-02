@@ -1,7 +1,3 @@
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-}
 /* Основной цвет текста #757575 */
 /* Вторичный цвет текста #212121 */
 /* Основной цвет фона #E5E5E5 */
@@ -10,6 +6,66 @@ body {
 /* Цвет лого 1 #2196F3 */
 /* Цвет лого 2 #000000 */
 
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 .logo {
   color: #000000;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero .hero-title {
+  color: var(--title-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features .feature-title {
+  color: var(--title-text-color);
+}
+
+.team .team-name {
+  color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--accent-color);
+}
+
+.button.primary {
+  color: #e5e5e5;
+  background-color: var(--accent-color);
 }
