@@ -6,27 +6,30 @@
 /* Цвет лого 1 #2196F3 */
 /* Цвет лого 2 #000000 */
 
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-}
-
-.list {
-  list-style: none;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* можно убрать точки у li c class="list"*/
+.list {
+  list-style: none;
+}
+/* можно убрать точки у всех li */
+/* ul {
+  list-style: none;
+} */
+
+/* убрал нижнее подчеркивание у всех ссылок */
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -42,6 +45,10 @@ a {
 
 .site-nav .link {
   color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
@@ -63,6 +70,16 @@ a {
   color: var(--title-text-color);
 }
 
+/* Button */
+/* .button {
+  color: var(--accent-color);
+} */
+
+.button.primary {
+  color: #e5e5e5;
+  background-color: var(--accent-color);
+}
+
 /* Section */
 .section-title {
   color: var(--title-text-color);
@@ -73,18 +90,9 @@ a {
   color: var(--title-text-color);
 }
 
+/* Наша команда */
 .team .team-name {
   color: var(--title-text-color);
-}
-
-/* Button */
-.button {
-  color: var(--accent-color);
-}
-
-.button.primary {
-  color: #e5e5e5;
-  background-color: var(--accent-color);
 }
 
 .adress {
