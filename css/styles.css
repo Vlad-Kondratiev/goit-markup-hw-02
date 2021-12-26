@@ -19,6 +19,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -27,6 +31,11 @@ ul {
 
 .logo {
   color: #000000;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
 }
 
 /* site-nav */
@@ -38,6 +47,14 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.mail {
+  color: var(--accent-color);
+}
+
+.tel {
+  color: var(--primary-text-color);
 }
 
 /* Hero */
@@ -68,4 +85,11 @@ ul {
 .button.primary {
   color: #e5e5e5;
   background-color: var(--accent-color);
+}
+
+.adress {
+  color: rgba(255, 255, 255, 1);
+}
+.auth-nav {
+  color: rgb(255, 255, 255, 9);
 }
