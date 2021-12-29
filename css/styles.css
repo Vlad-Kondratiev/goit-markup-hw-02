@@ -17,7 +17,6 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: ;
 }
 
 /* можно убрать точки у li c class="list"*/
@@ -54,7 +53,7 @@ a {
   top: 24px;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -75,7 +74,7 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  position: absolute;
+
   width: 49px;
   height: 16px;
   left: 453px;
@@ -83,13 +82,13 @@ a {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .mail {
   color: var(--accent-color);
-  position: absolute;
+
   width: 135px;
   height: 16px;
   left: 1078px;
@@ -103,7 +102,7 @@ a {
 
 .tel {
   color: var(--primary-text-color);
-  position: absolute;
+
   width: 122px;
   height: 16px;
   left: 1263px;
@@ -111,7 +110,7 @@ a {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -123,7 +122,7 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   /* or 136% */
 
   text-align: center;
