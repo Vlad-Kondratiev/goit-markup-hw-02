@@ -40,13 +40,12 @@ button {
 a {
   text-decoration: none;
 }
+/* Header */
 
 .logo {
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
-
-  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -138,11 +137,28 @@ a {
 .button.primary {
   color: #e5e5e5;
   background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.86;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
+
 .section-title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Features */
