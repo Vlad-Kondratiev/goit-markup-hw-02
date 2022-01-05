@@ -40,8 +40,8 @@ button {
 a {
   text-decoration: none;
 }
-/* Header */
 
+/* Header */
 .logo {
   color: #000000;
   text-decoration: none;
@@ -73,12 +73,6 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,12 +81,6 @@ a {
 
 .mail {
   color: var(--accent-color);
-
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -101,12 +89,10 @@ a {
 
 .tel {
   color: var(--primary-text-color);
-
   width: 122px;
   height: 16px;
   left: 1263px;
   top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -122,8 +108,6 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -171,19 +155,13 @@ a {
   color: var(--title-text-color);
 }
 
-.adress {
-  color: rgba(255, 255, 255, 1);
-}
-.auth-nav {
-  color: rgb(255, 255, 255, 9);
-}
-
-.footer {
-  background-color: #2f303a;
-}
-
-.logo-footer {
-  color: var(--primary-bg-color);
+.list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .worklist {
@@ -193,4 +171,46 @@ a {
 .button .filter:hover,
 .button .filter:focus {
   color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.16;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  color: rgba(255, 255, 255, 1);
+}
+
+.auth-nav {
+  color: rgb(255, 255, 255, 9);
+}
+
+.logo-footer {
+  color: var(--primary-bg-color);
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.auth-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
