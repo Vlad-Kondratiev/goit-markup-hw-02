@@ -23,18 +23,18 @@ body {
 .list {
   list-style: none;
 }
-
-button {
-  font-family: inherit;
-}
-
-.button {
-  list-style: none;
-}
 /* можно убрать точки у всех li */
 /* ul {
   list-style: none;
 } */
+
+.button {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
 
 /* убрал нижнее подчеркивание у всех ссылок */
 a {
@@ -46,10 +46,6 @@ a {
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -83,16 +79,12 @@ a {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .tel {
   color: var(--primary-text-color);
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -110,7 +102,6 @@ a {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 /* Button */
@@ -121,39 +112,81 @@ a {
 .button.primary {
   color: #e5e5e5;
   background-color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
-  /* identical to box height, or 187% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 
+.button.primary:hover,
+.button.primary:focus 
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* .features .title {
+  color: var(--title-text-color);
+} */
+
 /* Section */
 
 .section-title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-/* Features */
-.features .feature-title {
-  color: var(--title-text-color);
-}
-
 /* Наша команда */
+.section-team {
+  background-color: #f5f4fa;
+}
 .team .team-name {
   color: var(--title-text-color);
 }
+
+/* Footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  color: rgba(255, 255, 255, 1);
+}
+
+.auth-nav {
+  color: rgba(255, 255, 255, 9);
+}
+
+.logo-footer {
+  color: var(--primary-bg-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Страница портфолио */
 
 .list {
   font-family: Roboto;
@@ -175,42 +208,6 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
-  /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-/* Footer*/
-.footer {
-  background-color: #2f303a;
-}
-
-.adress {
-  color: rgba(255, 255, 255, 1);
-}
-
-.auth-nav {
-  color: rgb(255, 255, 255, 9);
-}
-
-.logo-footer {
-  color: var(--primary-bg-color);
-}
-.logo-footer {
-  text-decoration: none;
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.auth-nav {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
