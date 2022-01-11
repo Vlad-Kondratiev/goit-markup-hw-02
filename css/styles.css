@@ -20,15 +20,13 @@ body {
 }
 
 /* можно убрать точки у li c class="list"*/
-.list {
-  list-style: none;
-}
-/* можно убрать точки у всех li */
-/* ul {
+/* .list,
+.feature-list,
+.button {
   list-style: none;
 } */
-
-.button {
+/* можно убрать точки у всех li */
+ul {
   list-style: none;
 }
 
@@ -41,12 +39,20 @@ a {
   text-decoration: none;
 }
 
+/* h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+} */
+
 /* Header */
 .logo {
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -57,30 +63,38 @@ a {
 }
 
 /* site-nav */
-
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.mail {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.mail {
+.mail:hover,
+.mail:focus {
   color: var(--accent-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .tel {
@@ -91,17 +105,21 @@ a {
   letter-spacing: 0.02em;
 }
 
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
 /* Hero */
 
-.hero .hero-title {
+.hero-title {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Button */
@@ -109,36 +127,25 @@ a {
   color: var(--accent-color);
 } */
 
-.button.primary {
+.primary {
   color: #e5e5e5;
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.86;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
 }
 
-.button.primary:hover,
-.button.primary:focus 
+/* .button.primary:hover,
+.button.primary:focus  */
 
 /* Features */
-.title {
-  color: var(--title-text-color);
-}
-
-.features .title,
-.worklist .title {
-  color: var(--title-text-color);
-}
-
-/* Section */
 
 .section-title {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -146,12 +153,47 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* Наша команда */
-.section-team {
-  background-color: #f5f4fa;
-}
-.team .team-name {
+.title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* .features .title,
+.worklist .title {
+  color: var(--title-text-color);
+} */
+*/
+
+/* Section */
+
+
+/* Наша команда */
+
+.section-team .team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 /* Footer*/
@@ -171,16 +213,23 @@ a {
   color: var(--primary-bg-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
-.footer-nav {
+.adress {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-nav {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -189,18 +238,16 @@ a {
 
 /* Страница портфолио */
 
-.list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+/* .list {
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-}
+} */
 
-.worklist {
+/* .worklist {
   color: var(--title-text-color);
-}
+} */
 
 button {
   font-weight: 500;
@@ -217,4 +264,11 @@ button {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+
+.item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
