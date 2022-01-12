@@ -122,11 +122,6 @@ a {
   text-transform: uppercase;
 }
 
-/* Button */
-/* .button {
-  color: var(--accent-color);
-} */
-
 .primary {
   color: #e5e5e5;
   background-color: var(--accent-color);
@@ -134,13 +129,7 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
-
-/* .button.primary:hover,
-.button.primary:focus  */
 
 /* Features */
 
@@ -169,23 +158,11 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* .features .title,
-.worklist .title {
-  color: var(--title-text-color);
-} */
-*/
-
-/* Section */
-
-
-/* Наша команда */
-
-.section-team .team-name {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -203,6 +180,11 @@ a {
 
 .adress {
   color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .auth-nav {
@@ -219,15 +201,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-.adress {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .footer-nav {
   font-weight: 400;
   font-size: 14px;
@@ -238,26 +211,15 @@ a {
 
 /* Страница портфолио */
 
-/* .list {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-} */
-
-/* .worklist {
-  color: var(--title-text-color);
-} */
-
-button {
+.filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
 
-.button .filter:hover,
-.button .filter:focus {
+.filter:hover,
+.filter:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -267,8 +229,17 @@ button {
 }
 
 .item {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.item-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
