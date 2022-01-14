@@ -39,6 +39,19 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* h2 {
   color: var(--title-text-color);
   font-weight: 700;
@@ -47,7 +60,7 @@ a {
   letter-spacing: 0.03em;
 } */
 
-/* Header */
+/* ---------------------HEADER--------------------- */
 .logo {
   color: #000000;
   text-decoration: none;
@@ -62,8 +75,7 @@ a {
   color: var(--accent-color);
 }
 
-/* site-nav */
-.site-nav .link {
+.header-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -71,7 +83,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
+.current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -79,8 +91,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
 }
 
@@ -110,7 +122,7 @@ a {
   color: var(--accent-color);
 }
 
-/* Hero */
+/* ------------------HERO------------------ */
 
 .hero-title {
   color: var(--title-text-color);
@@ -131,7 +143,7 @@ a {
   letter-spacing: 0.06em;
 }
 
-/* Features */
+/* -------------------FEATURES----------------- */
 
 .section-title {
   color: var(--title-text-color);
@@ -173,7 +185,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* Footer*/
+/*------------------FOOTER------------------*/
 .footer {
   background-color: #2f303a;
 }
